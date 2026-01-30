@@ -4,7 +4,7 @@ AI Control Tower for Operational Risk - Executive Dashboard
 
 ## 2026 Design Refresh
 
-The dashboard now ships with a futuristic light theme, tactile button states, and the Risk Trend composite chart so stakeholders can track severity drift without leaving the main view.
+The dashboard now ships with a futuristic light theme, tactile button states, and the Risk Trend composite chart so stakeholders can track severity drift without leaving the main view. All primary screens were rebuilt around high-key neutrals, layered glass surfaces, and animated micro-interactions that keep the experience energetic without overwhelming decision makers.
 
 ## Quick Start
 
@@ -63,7 +63,7 @@ VITE_API_URL=http://localhost:8000
 
 ## Demo Mode
 
-If the backend is unavailable, the frontend automatically displays demo data for presentation purposes.
+If the backend is unavailable, the frontend automatically displays demo data for presentation purposes. Demo mode mirrors real production payloads so leaders can rehearse reviews even when the services are offline.
 
 ## Project Structure
 
@@ -77,20 +77,22 @@ src/
     ├── Header.jsx       # Top header with refresh
     ├── ExecutiveSummary.jsx  # AI summary display
     ├── StatsGrid.jsx    # Stats cards
+    ├── RiskTrendCard.jsx     # Composite risk severity chart
     └── EventTimeline.jsx     # Event list
 ```
 
 ## Design System
 
 ### Colors
-- **Critical**: Red (#ef4444)
+- **Critical**: Red (#dc2626)
 - **High**: Orange (#f97316)
-- **Medium**: Yellow (#eab308)
-- **Low**: Green (#22c55e)
-- **HR Events**: Purple (#8b5cf6)
-- **Finance Events**: Blue (#3b82f6)
+- **Medium**: Gold (#eab308)
+- **Low**: Green (#16a34a)
+- **HR Events**: Violet (#8b5cf6)
+- **Finance Events**: Azure (#2563eb)
 
 ### Theme
-- Dark background (#0a0a0b)
-- Card backgrounds (#18181b)
-- Subtle borders (#27272a)
+- Light backdrop gradient (#ffffff → #eff3f8)
+- Layered glass cards with soft borders (#e5e7eb)
+- Animated accents with electric blues and cyans
+- Rounded geometry (6px–18px radii) and pill controls
